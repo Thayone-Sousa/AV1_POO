@@ -29,7 +29,7 @@ class MensagemVideo : Mensagem
 {
     public string Arquivo { get; set; }
     public string Formato { get; set; }
-    public double Duracao { get; set; } // em segundos
+    public double Duracao { get; set; }
 
     public MensagemVideo(string texto, string arquivo, string formato, double duracao)
         : base(texto)
